@@ -7,4 +7,6 @@ tasks:
       . /opt/conda/etc/profile.d/conda.sh
       conda activate base
       conda create -n jupyter -y -q jupyter
+      conda activate jupyter
+      jupyter-server
       #bash test.data.sh
